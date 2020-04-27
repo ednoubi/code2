@@ -13,7 +13,7 @@ pipeline {
         }
       
       }
-         stage ("Deply") {
+         stage ("Deploy") {
         steps {
           echo "Deploy war file"
         }
