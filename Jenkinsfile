@@ -7,6 +7,18 @@ pipeline {
         }
       
       }
+        stage ("Test") {
+        steps {
+          echo "Test step"
+        }
+      
+      }
+         stage ("Deply") {
+        steps {
+          echo "Deploy war file"
+        }
+      
+      }
     }
 
 
